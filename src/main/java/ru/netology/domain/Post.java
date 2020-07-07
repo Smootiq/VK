@@ -13,13 +13,13 @@ public class Post {
     private boolean canResponse;
     private boolean canDelete;
     private boolean canEdit;
-    private String[] comment;
+    private Commentary[] comment;
 
-    public String[] getComment() {
+    public Commentary[] getComment() {
         return comment;
     }
 
-    public void setComment(String[] comment) {
+    public void setComment(Commentary[] comment) {
         this.comment = comment;
     }
 
